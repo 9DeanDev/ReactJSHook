@@ -1,0 +1,42 @@
+.blogs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 30px;
+
+    .single-blog {
+        border: 1px solid gray;
+        border-radius: 3px;
+        max-width: 400px;
+        min-width: 400px;
+        padding: 10px;
+        margin: 0 10px;
+
+        .title {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .body {
+            font-size: 14px;
+        }
+
+        div.X {
+            text-align: right;
+        }
+
+        span.X {
+            cursor: pointer;
+        }
+    }
+}
+
+.single-new-blog {
+    display: flex;
+    flex-direction: column;
+
+    .new-title {}
+
+    .new-body {}
+}
